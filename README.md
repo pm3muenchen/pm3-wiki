@@ -80,13 +80,13 @@ docker run --rm -d -p 3000:3000 -v $(pwd):/var/docusaurus <tag>
 ```
 If using Powershell you will need to use `${pwd}` instead of `$(pwd)`. On some systems you may need to replace `$(pwd)` with `.` or the full path to the directory you want to mount.
 
-## SERVE
+### SERVE
 To run the `serve` target you will ne to run the following command:
 ```
 docker run --rm -d -p 3000:3000 <tag>
 ```
 
-## CADDY
+### CADDY
 To run the `caddy` target you will ne to run the following command:
 ```
 docker run --rm -d -p 80:80 -p 443:443 <tag>
