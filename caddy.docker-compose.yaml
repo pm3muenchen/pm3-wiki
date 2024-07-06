@@ -1,0 +1,19 @@
+name: "docusaurus"
+services:
+  caddy-docusaurus:
+    build:
+      context: .
+      target: caddy
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - caddy_data:/data
+      - caddy_config:/config
+    environment:
+      - NODE_ENV=production
+      - DOCUSAURUS_DOMAIN=pm3muenchen.de
+      - DOCUSAURUS_EMAIL=wiki-admin@pm3muenchen.de
+volumes:
+  caddy_data
+  caddy_config
