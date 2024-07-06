@@ -2,21 +2,23 @@
   "id": "intro",
   "title": "PM3 Wiki Page",
   "description": "Create a doc page with rich content.",
-  "source": "@site/docs/intro.md",
+  "source": "@site/docs/01-intro.md",
   "sourceDirName": ".",
   "slug": "/",
   "permalink": "/",
   "draft": false,
   "unlisted": false,
+  "editUrl": "https://github.com/pm3muenchen/pm3-wiki/tree/shared/docs/docs/01-intro.md",
   "tags": [],
   "version": "current",
+  "sidebarPosition": 1,
   "frontMatter": {
     "slug": "/",
     "description": "Create a doc page with rich content."
   },
   "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Translate your site",
-    "permalink": "/tutorial-extras/translate-your-site"
+  "next": {
+    "title": "Meeting Notes",
+    "permalink": "/meetingnotes"
   }
 }

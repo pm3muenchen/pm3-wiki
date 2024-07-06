@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Wiki PM3 Indonesia - München e.V',
   tagline: 'PM3 Indonesia - München e.V',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/pm3.ico',
 
   // Set the production url of your site here
   url: 'https://wiki.pm3muenchen.de',
@@ -34,19 +34,14 @@ const config: Config = {
       'classic',
       {
         docs: {
+          routeBasePath: '/',
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/pm3muenchen/pm3-wiki/tree/shared/docs/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -61,19 +56,18 @@ const config: Config = {
       title: 'Wiki PM3 Indonesia - München e.V',
       logo: {
         alt: 'Wiki PM3 Indonesia - München e.V',
-        src: 'img/logo.svg',
+        src: 'img/pm3logo.svg',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Docs',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://pm3muenchen.de',
+          label: 'Homepage',
           position: 'right',
         },
       ],
@@ -85,7 +79,7 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Docs',
               to: '/docs/intro',
             },
           ],

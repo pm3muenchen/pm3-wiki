@@ -1,6 +1,6 @@
 name: "docusaurus"
 services:
-  caddy-docusaurus:
+  caddy:
     build:
       context: .
       target: caddy

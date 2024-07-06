@@ -1,0 +1,37 @@
+{
+  "id": "meeting notes/index",
+  "title": "Meeting Notes",
+  "description": "Here you could find all notes of our meetings.",
+  "source": "@site/docs/02-meeting notes/index.md",
+  "sourceDirName": "02-meeting notes",
+  "slug": "/meetingnotes",
+  "permalink": "/meetingnotes",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/pm3muenchen/pm3-wiki/tree/shared/docs/docs/02-meeting notes/index.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "Introduction",
+      "permalink": "/tags/introduction"
+    },
+    {
+      "inline": true,
+      "label": "MeetingNotes",
+      "permalink": "/tags/meeting-notes"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "slug": "/meetingnotes",
+    "tags": [
+      "Introduction",
+      "MeetingNotes"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "PM3 Wiki Page",
+    "permalink": "/"
+  }
+}

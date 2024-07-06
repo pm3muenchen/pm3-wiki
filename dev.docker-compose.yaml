@@ -1,6 +1,6 @@
 name: "docusaurus"
 services:
-  dev-docusaurus:
+  dev:
     build:
       context: .
       target: dev

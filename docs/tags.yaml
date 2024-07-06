@@ -1,0 +1,13 @@
+Introduction:
+  label: 'Introduction'
+
+MeetingNotes:
+  label: 'Meeting Notes'
+
+# A partial tag definition is also valid
+Announcements:
+  label: 'Announcements'
+
+# An empty tag definition is also valid
+# Other attributes will be inferred from the key
+EmptyTag:

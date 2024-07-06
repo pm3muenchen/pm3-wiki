@@ -6,7 +6,7 @@
 export default {
   "title": "Wiki PM3 Indonesia - München e.V",
   "tagline": "PM3 Indonesia - München e.V",
-  "favicon": "img/favicon.ico",
+  "favicon": "img/pm3.ico",
   "url": "https://wiki.pm3muenchen.de",
   "baseUrl": "/",
   "organizationName": "PM3 Indonesia - München e.V",
@@ -26,13 +26,11 @@ export default {
       "classic",
       {
         "docs": {
+          "routeBasePath": "/",
           "sidebarPath": "./sidebars.ts",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/pm3muenchen/pm3-wiki/tree/shared/docs/"
         },
-        "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
-        },
+        "blog": false,
         "theme": {
           "customCss": "./src/css/custom.css"
         }
@@ -45,23 +43,18 @@ export default {
       "title": "Wiki PM3 Indonesia - München e.V",
       "logo": {
         "alt": "Wiki PM3 Indonesia - München e.V",
-        "src": "img/logo.svg"
+        "src": "img/pm3logo.svg"
       },
       "items": [
         {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "Tutorial"
+          "label": "Docs"
         },
         {
-          "to": "/blog",
-          "label": "Blog",
-          "position": "left"
-        },
-        {
-          "href": "https://github.com/facebook/docusaurus",
-          "label": "GitHub",
+          "href": "https://pm3muenchen.de",
+          "label": "Homepage",
           "position": "right"
         }
       ],
@@ -74,7 +67,7 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Tutorial",
+              "label": "Docs",
               "to": "/docs/intro"
             }
           ]
