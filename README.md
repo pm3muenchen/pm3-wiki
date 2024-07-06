@@ -47,7 +47,7 @@ There are a few approaches to dockerizing Docusaurus sites:
 2. Build the site in a container and run the serve process in the same container.
 3. Run the `start` process in a container with the *local* source code folder mounted as a volume.
 
-A dockerfile is provided which will cover all three of the above approaches. You can choose which approach you want to use by passing `--target` option to the `docker build` command. Our dockerfile makes use of multi-stage builds to build the site.
+A dockerfile and dockercompose files are provided which will cover all three of the above approaches. You can choose which approach you want to use by passing `--target` option to the `docker build` command. Our dockerfile makes use of multi-stage builds to build the site.
 
 ## Exposing application outside container
 In order to make the application accessible from outside the container (e.g. from your web browser), you'll want to set the `--host` option to `0.0.0.0`. This can be done from your package.json:
