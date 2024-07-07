@@ -1,5 +1,6 @@
 ---
 slug: /meetingnotes
+sidebar_label: 'Meeting Notes'
 tags: [Introduction, MeetingNotes]
 ---
 
