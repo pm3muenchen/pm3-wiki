@@ -76,16 +76,16 @@ export default {
           "title": "Community",
           "items": [
             {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
+              "label": "Facebook",
+              "href": "https://www.facebook.com/share/xaPsu3ZhuW8rgUto/?mibextid=K35XfP"
             },
             {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
+              "label": "Instagram",
+              "href": "https://instagram.com/pm3.muenchen/"
             },
             {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
+              "label": "Youtube",
+              "href": "https://www.youtube.com/@pengajianpm3e.vmuenchen171"
             }
           ]
         },
@@ -93,17 +93,17 @@ export default {
           "title": "More",
           "items": [
             {
-              "label": "Blog",
-              "to": "/blog"
+              "label": "Website",
+              "to": "https://www.pm3muenchen.de"
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/pm3muenchen"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2024 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2024 PM3 Indonesia - München e.V. Built with Docusaurus."
     },
     "prism": {
       "theme": {

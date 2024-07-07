@@ -1,14 +1,14 @@
 {
-  "id": "meeting notes/index",
+  "id": "meeting-notes/index",
   "title": "Meeting Notes",
   "description": "Here you could find all notes of our meetings.",
-  "source": "@site/docs/02-meeting notes/index.md",
-  "sourceDirName": "02-meeting notes",
+  "source": "@site/docs/02-meeting-notes/index.md",
+  "sourceDirName": "02-meeting-notes",
   "slug": "/meetingnotes",
   "permalink": "/meetingnotes",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/pm3muenchen/pm3-wiki/tree/shared/docs/docs/02-meeting notes/index.md",
+  "editUrl": "https://github.com/pm3muenchen/pm3-wiki/tree/shared/docs/docs/02-meeting-notes/index.md",
   "tags": [
     {
       "inline": true,
@@ -32,7 +32,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "PM3 Wiki Page",
+    "title": "Home",
     "permalink": "/"
   }
 }

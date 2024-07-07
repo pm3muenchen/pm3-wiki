@@ -49,11 +49,11 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'f6f'),
+    component: ComponentCreator('/', 'b0a'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '59d'),
+        component: ComponentCreator('/', '348'),
         routes: [
           {
             path: '/tags',
@@ -72,11 +72,11 @@ export default [
           },
           {
             path: '/',
-            component: ComponentCreator('/', '93d'),
+            component: ComponentCreator('/', 'e0b'),
             routes: [
               {
                 path: '/meetingnotes',
-                component: ComponentCreator('/meetingnotes', 'b62'),
+                component: ComponentCreator('/meetingnotes', '7b7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
