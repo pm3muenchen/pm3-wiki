@@ -1,5 +1,6 @@
 ---
 slug: /
+sidebar_label: 'Home'
 description: Create a doc page with rich content.
 ---
 
@@ -22,14 +23,14 @@ Create a Markdown file at `docs/hello.md`:
 ```md title="docs/hello.md"
 # Hello
 
-This is my **first Docusaurus document**!
+This is my **first markdown document**!
 ```
 
 A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).
 
 ### Configure the Sidebar
 
-Docusaurus automatically **creates a sidebar** from the `docs` folder.
+The page automatically **creates a sidebar** from the `docs` folder.
 
 Add metadata to customize the sidebar label and position:
 
@@ -41,24 +42,7 @@ sidebar_position: 3
 
 # Hello
 
-This is my **first Docusaurus document**!
-```
-
-It is also possible to create your sidebar explicitly in `sidebars.js`:
-
-```js title="sidebars.js"
-export default {
-  tutorialSidebar: [
-    'intro',
-    // highlight-next-line
-    'hello',
-    {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
-    },
-  ],
-};
+This is my **first markdown document**!
 ```
 
 ## Markdown Features
@@ -121,22 +105,22 @@ You can reference images relative to the current file as well. This is particula
 Markdown code blocks are supported with Syntax highlighting.
 
 ````md
-```jsx title="src/components/HelloDocusaurus.js"
-function HelloDocusaurus() {
-  return <h1>Hello, Docusaurus!</h1>;
+```jsx title="src/components/HelloWorld.js"
+function HelloWorld() {
+  return <h1>Hello, world!</h1>;
 }
 ```
 ````
 
-```jsx title="src/components/HelloDocusaurus.js"
-function HelloDocusaurus() {
-  return <h1>Hello, Docusaurus!</h1>;
+```jsx title="src/components/HelloWorld.js"
+function HelloWorld() {
+  return <h1>Hello, world!</h1>;
 }
 ```
 
 ### Admonitions
 
-Docusaurus has a special syntax to create admonitions and callouts:
+It has a special syntax to create admonitions and callouts:
 
 ```md
 :::tip My tip
