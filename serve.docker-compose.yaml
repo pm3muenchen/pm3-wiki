@@ -1,4 +1,4 @@
-name: "docusaurus"
+name: "pm3wiki"
 services:
   serve:
     build:
