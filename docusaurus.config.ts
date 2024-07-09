@@ -8,16 +8,18 @@ const config: Config = {
   favicon: 'img/pm3.ico',
 
   // Set the production url of your site here
-  url: 'https://wiki.pm3muenchen.de',
+  url: 'https://pm3muenchen.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'PM3 Indonesia - München e.V', // Usually your GitHub org/user name.
+  organizationName: 'pm3muenchen', // Usually your GitHub org/user name.
   projectName: 'pm3-wiki', // Usually your repo name.
-
+  trailingSlash: false,
+  deploymentBranch: 'shared',
+  
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
