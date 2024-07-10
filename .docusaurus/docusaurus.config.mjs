@@ -7,11 +7,13 @@ export default {
   "title": "Wiki PM3 Indonesia - München e.V",
   "tagline": "PM3 Indonesia - München e.V",
   "favicon": "img/pm3.ico",
-  "url": "https://wiki.pm3muenchen.de",
-  "baseUrl": "/",
-  "organizationName": "PM3 Indonesia - München e.V",
+  "url": "https://pm3muenchen.github.io",
+  "baseUrl": "/pm3-wiki/",
+  "organizationName": "pm3muenchen",
   "projectName": "pm3-wiki",
-  "onBrokenLinks": "throw",
+  "trailingSlash": false,
+  "deploymentBranch": "main",
+  "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
     "defaultLocale": "en",
@@ -28,9 +30,10 @@ export default {
         "docs": {
           "routeBasePath": "/",
           "sidebarPath": "./sidebars.ts",
-          "editUrl": "https://github.com/pm3muenchen/pm3-wiki/tree/shared/docs/"
+          "editUrl": "https://github.com/pm3muenchen/pm3-wiki/tree/shared/"
         },
         "blog": false,
+        "pages": false,
         "theme": {
           "customCss": "./src/css/custom.css"
         }
@@ -68,7 +71,7 @@ export default {
           "items": [
             {
               "label": "Docs",
-              "to": "/docs/intro"
+              "to": "/"
             }
           ]
         },

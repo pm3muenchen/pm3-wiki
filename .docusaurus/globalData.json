@@ -1,23 +1,23 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/",
+      "path": "/pm3-wiki/",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/",
+          "path": "/pm3-wiki/",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "intro",
-              "path": "/",
+              "path": "/pm3-wiki/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "meeting-notes/index",
-              "path": "/meetingnotes",
+              "path": "/pm3-wiki/meetingnotes",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -25,7 +25,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/",
+                "path": "/pm3-wiki/",
                 "label": "Home"
               }
             }

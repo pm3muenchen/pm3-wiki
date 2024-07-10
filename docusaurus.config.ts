@@ -18,9 +18,9 @@ const config: Config = {
   organizationName: 'pm3muenchen', // Usually your GitHub org/user name.
   projectName: 'pm3-wiki', // Usually your repo name.
   trailingSlash: false,
-  deploymentBranch: 'shared',
+  deploymentBranch: 'main',
   
-  onBrokenLinks: 'ignore',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -41,9 +41,10 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/pm3muenchen/pm3-wiki/tree/shared/docs/',
+            'https://github.com/pm3muenchen/pm3-wiki/tree/shared/',
         },
         blog: false,
+        pages: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -82,7 +83,7 @@ const config: Config = {
           items: [
             {
               label: 'Docs',
-              to: '/docs/intro',
+              to: '/',
             },
           ],
         },
