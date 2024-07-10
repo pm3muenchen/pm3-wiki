@@ -5,20 +5,20 @@
   "source": "@site/docs/02-meeting-notes/index.md",
   "sourceDirName": "02-meeting-notes",
   "slug": "/meetingnotes",
-  "permalink": "/meetingnotes",
+  "permalink": "/pm3-wiki/meetingnotes",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/pm3muenchen/pm3-wiki/tree/shared/docs/docs/02-meeting-notes/index.md",
+  "editUrl": "https://github.com/pm3muenchen/pm3-wiki/tree/shared/docs/02-meeting-notes/index.md",
   "tags": [
     {
       "inline": true,
       "label": "Introduction",
-      "permalink": "/tags/introduction"
+      "permalink": "/pm3-wiki/tags/introduction"
     },
     {
       "inline": true,
       "label": "MeetingNotes",
-      "permalink": "/tags/meeting-notes"
+      "permalink": "/pm3-wiki/tags/meeting-notes"
     }
   ],
   "version": "current",
@@ -33,6 +33,6 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Home",
-    "permalink": "/"
+    "permalink": "/pm3-wiki/"
   }
 }
