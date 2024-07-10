@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Wiki PM3 Indonesia - München e.V',
   tagline: 'PM3 Indonesia - München e.V',
-  favicon: 'img/pm3.ico',
+  favicon: 'img/pm3ico.ico',
 
   // Set the production url of your site here
   url: 'https://pm3muenchen.github.io',
