@@ -1,5 +1,5 @@
 import React from "react";
-import { auth } from "../AuthFeatures";
+import { auth } from "../Auth";
 
 import FirebaseUIReact from "firebaseui-react";
 import "firebase/compat/auth";
@@ -12,7 +12,7 @@ export const uiConfig = {
   language: "en"
 };
 
-export function LoginFeatures() {
+export function Login() {
   return (
     <div className="auth-wrapper">
       <FirebaseUIReact auth={auth} config={uiConfig} />
