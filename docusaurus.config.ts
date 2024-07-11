@@ -8,7 +8,7 @@ const config: Config = {
   favicon: 'img/pm3ico.ico',
 
   // Set the production url of your site here
-  url: 'https://pm3muenchen.github.io',
+  url: 'https://wiki.pm3muenchen.de',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -21,7 +21,7 @@ const config: Config = {
   deploymentBranch: 'main',
   
   onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenMarkdownLinks: 'throw',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -50,6 +50,16 @@ const config: Config = {
         },
       } satisfies Preset.Options,
     ],
+  ],
+
+  plugins: [
+    [
+      'docusaurus-plugin-dotenv',
+      {
+        path: './.env.local',
+        systemvars: true
+      }
+    ]
   ],
 
   themeConfig: {
