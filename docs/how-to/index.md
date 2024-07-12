@@ -1,6 +1,7 @@
 ---
 slug: /howto
 sidebar_label: 'How to'
+sidebar_position: 2
 tags: [Introduction]
 ---
 

@@ -1,6 +1,7 @@
 ---
 slug: /
 sidebar_label: 'Home'
+sidebar_position: 1
 description: Create a doc page with rich content.
 ---
 
