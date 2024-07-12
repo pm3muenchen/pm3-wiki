@@ -38,10 +38,8 @@ const config: Config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/pm3muenchen/pm3-wiki/tree/shared/',
+          // Comment out when it is authenticated and integrated with netlify cms for better editing UI
+          //editUrl: 'https://github.com/pm3muenchen/pm3-wiki/tree/shared/',
         },
         blog: false,
         pages: false,
