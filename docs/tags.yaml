@@ -4,6 +4,9 @@ Introduction:
 MeetingNotes:
   label: 'Meeting Notes'
 
+Tutorials:
+  label: 'Tutorials'
+
 # A partial tag definition is also valid
 Announcements:
   label: 'Announcements'
