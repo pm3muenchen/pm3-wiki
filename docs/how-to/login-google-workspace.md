@@ -1,5 +1,6 @@
 ---
 sidebar_label: 'Login into Google Workspace'
+sidebar_position: 1
 tags: [Tutorials]
 ---
 

@@ -1,6 +1,7 @@
 ---
 slug: /meetingnotes
 sidebar_label: 'Meeting Notes'
+sidebar_position: 3
 tags: [Introduction, MeetingNotes]
 ---
 
