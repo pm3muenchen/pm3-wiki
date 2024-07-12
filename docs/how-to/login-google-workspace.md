@@ -17,7 +17,7 @@ In normal case the credentials will be sent to your primary email address or if 
 
 1. Please go to this [site](https://account.google.com)
 2. Click "Go to Google Account" button, see [screenshot](/img/login-google-workspace-1.png)
-3. Input your username (normaly <firstname>.<lastname>@pm3muenchen.de), see [screenshot](/img/login-google-workspace-2.png)
+3. Input your username (normaly firstname.lastname@pm3muenchen.de), see [screenshot](/img/login-google-workspace-2.png)
 4. Press "Next" button
 5. Input your password, see [screenshot](/img/login-google-workspace-3.png)
 6. Press "Next" button again
