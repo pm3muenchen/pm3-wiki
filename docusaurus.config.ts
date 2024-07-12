@@ -98,7 +98,7 @@ const config: Config = {
             },
             {
               label: 'Youtube',
-              href: 'https://www.youtube.com/@pengajianpm3e.vmuenchen171',
+              href: 'https://www.youtube.com/@pm3indonesiamuenchen',
             },
           ],
         },
